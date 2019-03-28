@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>samsungtest1190@gmail.com</contactEmail>
+    <label>MyConference</label>
+    <oauthConfig>
+        <callbackUrl>https://trailheadguy1.herokuapp.com/oauthcallback.html</callbackUrl>
+        <consumerKey>3MVG9I5UQ_0k_hTnStJAyjsoO6ouIos.4m7__Ndj1pn5dLAgwppvuqRQ4Vsx5sbSFNUbj7icBJ4Hd.LI8q3tF</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

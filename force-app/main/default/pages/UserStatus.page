@@ -1,0 +1,17 @@
+<apex:page >
+    <apex:pageblock title="User Status"> 
+    	<apex:pageBlockSection columns="1">
+        
+            {! $User.Firstname}  {!$User.Lastname}
+            ({!$User.Username})
+            
+            <p>
+                Today's date is: {!Today()} 
+            </p>
+            <p>
+                {!if (Day(Today()) < 15, 'Before the 15th', 
+                	'After the 15th' ) } 
+            </p>
+        </apex:pageBlockSection>
+    </apex:pageblock>
+</apex:page>

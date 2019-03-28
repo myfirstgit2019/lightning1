@@ -1,0 +1,17 @@
+<apex:page sidebar="true" showHeader="true" >
+    <h1>
+        Hello World !
+    </h1>
+    <apex:pageBlock title="Top section">
+		<apex:pageblockSection title="Pageblock section"> 
+         	Multiple layers 
+		
+        </apex:pageblockSection>
+        <apex:pageblockSection title="Second Pageblock section"> 
+            
+        </apex:pageblockSection>
+    </apex:pageBlock>
+    <p>
+        This is another vforce page ;) 
+    </p>
+</apex:page>

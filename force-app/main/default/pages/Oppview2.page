@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity" >
+    <apex:pageblock title="Opportunities">
+     
+            <apex:outputField value="{!opportunity.name}"/> 
+  
+    
+    </apex:pageblock>
+    
+</apex:page>

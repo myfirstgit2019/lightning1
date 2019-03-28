@@ -1,0 +1,19 @@
+<apex:page standardController="contact" >
+    <apex:form >
+        <apex:pageblock >
+    	<apex:pageblocksection title="Enter new contact">
+        	
+            <apex:inputField value="{!contact.FirstName}"/>
+        	<apex:inputField value="{!contact.LastName}"/>
+            <apex:inputField value="{!contact.Email}"/>
+            
+          <apex:commandButton action="{!Save}" value="save"/>
+           
+            <apex:outputLink value="{! URLFOR($Action.Contact.view, contact.Id) }">
+                Detail
+            </apex:outputLink>
+        </apex:pageblocksection>
+    </apex:pageblock>
+    </apex:form>
+    
+</apex:page>

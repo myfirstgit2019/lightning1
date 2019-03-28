@@ -1,0 +1,12 @@
+<apex:page standardController="Case" recordSetVar="Cases">
+    <li>
+    <apex:repeat var="cse" value="{!Cases}" >
+        <apex:outputLink value="/{!cse.Id}" > {!cse.casenumber}
+        
+        </apex:outputLink>
+        
+      <br></br>
+    </apex:repeat>
+        
+        </li>
+</apex:page>

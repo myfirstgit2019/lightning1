@@ -1,0 +1,8 @@
+<apex:page standardController="contact" recordSetVar="Contacts2" tabstyle="contact"
+sidebar="false">
+<apex:pageBlock >
+<apex:pageBlockTable value="{!contacts2}" var="a">
+<apex:column value="{!a.name}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:page>
