@@ -7,7 +7,8 @@ public  class AccountHandler2 {
             insert acntres; 
         } catch (DmlException e)	{
             System.debug(e.getMessage());
-        }
+         
+         }
         
         
         return acntres;
